@@ -1,0 +1,13 @@
+cff-version: 1.2.1
+message: "If you use this software, please cite it."
+title: "Temporal Relativity — Empirics Pack"
+authors:
+  - family-names: "Langstaff"
+    given-names: "Christopher M."
+license: "MIT"
+version: "0.1.2"
+date-released: "2025-09-15"
+
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17119050
