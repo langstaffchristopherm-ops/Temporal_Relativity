@@ -1,0 +1,339 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{falconer2014fractal}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4ba140e6ae5f4adf516028893d7e733}{%
+           family={Falconer},
+           familyi={F\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chichester}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{a4ba140e6ae5f4adf516028893d7e733}
+      \strng{fullhash}{a4ba140e6ae5f4adf516028893d7e733}
+      \strng{fullhashraw}{a4ba140e6ae5f4adf516028893d7e733}
+      \strng{bibnamehash}{a4ba140e6ae5f4adf516028893d7e733}
+      \strng{authorbibnamehash}{a4ba140e6ae5f4adf516028893d7e733}
+      \strng{authornamehash}{a4ba140e6ae5f4adf516028893d7e733}
+      \strng{authorfullhash}{a4ba140e6ae5f4adf516028893d7e733}
+      \strng{authorfullhashraw}{a4ba140e6ae5f4adf516028893d7e733}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Fractal Geometry: Mathematical Foundations and Applications}
+      \field{year}{2014}
+    \endentry
+    \entry{grassberger1983measuring}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3cd1291c7a91fcb1a8ac54e2e8699f32}{%
+           family={Grassberger},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bcb302aa5fdd4c5eddb0b92bc0820286}{%
+           family={Procaccia},
+           familyi={P\bibinitperiod},
+           given={Itamar},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{fullhash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{fullhashraw}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{bibnamehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authorbibnamehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authornamehash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authorfullhash}{4bbf191202bacad563c63c31ef4c70be}
+      \strng{authorfullhashraw}{4bbf191202bacad563c63c31ef4c70be}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{number}{1-2}
+      \field{title}{Measuring the Strangeness of Strange Attractors}
+      \field{volume}{9}
+      \field{year}{1983}
+      \field{pages}{189\bibrangedash 208}
+      \range{pages}{20}
+    \endentry
+    \entry{lovasz1993random}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=0d1784a2f9a807b1da8d15d5b1029c08}{%
+           family={Lovász},
+           familyi={L\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=ffc282e15f816c0fe459fc0a6da5c92c}{%
+           family={Deza},
+           familyi={D\bibinitperiod},
+           given={Miklós},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b8f6e7b5ec0a55f3a2fbfd17aab7dfa9}{%
+           family={Ruzsa},
+           familyi={R\bibinitperiod},
+           given={Imre\bibnamedelima Z.},
+           giveni={I\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=a2925a8782a165ad995cca7a971c3469}{%
+           family={Sós},
+           familyi={S\bibinitperiod},
+           given={Tamás},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Budapest}%
+      }
+      \list{publisher}{1}{%
+        {János Bolyai Mathematical Society}%
+      }
+      \strng{namehash}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{fullhash}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{fullhashraw}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{bibnamehash}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{authorbibnamehash}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{authornamehash}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{authorfullhash}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{authorfullhashraw}{0d1784a2f9a807b1da8d15d5b1029c08}
+      \strng{editorbibnamehash}{080b976167c7d58a42c923832e21df73}
+      \strng{editornamehash}{080b976167c7d58a42c923832e21df73}
+      \strng{editorfullhash}{080b976167c7d58a42c923832e21df73}
+      \strng{editorfullhashraw}{080b976167c7d58a42c923832e21df73}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Combinatorics, Paul Erdős is Eighty}
+      \field{title}{Random Walks on Graphs: A Survey}
+      \field{volume}{2}
+      \field{year}{1996}
+      \field{pages}{1\bibrangedash 46}
+      \range{pages}{46}
+    \endentry
+    \entry{Einstein1911}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=29a34a00e610eaed35baff40f473278f}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{29a34a00e610eaed35baff40f473278f}
+      \strng{fullhash}{29a34a00e610eaed35baff40f473278f}
+      \strng{fullhashraw}{29a34a00e610eaed35baff40f473278f}
+      \strng{bibnamehash}{29a34a00e610eaed35baff40f473278f}
+      \strng{authorbibnamehash}{29a34a00e610eaed35baff40f473278f}
+      \strng{authornamehash}{29a34a00e610eaed35baff40f473278f}
+      \strng{authorfullhash}{29a34a00e610eaed35baff40f473278f}
+      \strng{authorfullhashraw}{29a34a00e610eaed35baff40f473278f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{title}{On the Influence of Gravitation on the Propagation of Light}
+      \field{volume}{35}
+      \field{year}{1911}
+      \field{pages}{898\bibrangedash 908}
+      \range{pages}{11}
+    \endentry
+    \entry{Rovelli1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b32ab73e85caa26365ad2176347b9515}{%
+           family={Rovelli},
+           familyi={R\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{fullhash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{fullhashraw}{b32ab73e85caa26365ad2176347b9515}
+      \strng{bibnamehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authorbibnamehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authornamehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authorfullhash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authorfullhashraw}{b32ab73e85caa26365ad2176347b9515}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Classical and Quantum Gravity}
+      \field{number}{8}
+      \field{title}{Statistical mechanics of gravity and the thermodynamical origin of time}
+      \field{volume}{10}
+      \field{year}{1993}
+      \field{pages}{1549\bibrangedash 1566}
+      \range{pages}{18}
+    \endentry
+    \entry{Rovelli2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b32ab73e85caa26365ad2176347b9515}{%
+           family={Rovelli},
+           familyi={R\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{fullhash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{fullhashraw}{b32ab73e85caa26365ad2176347b9515}
+      \strng{bibnamehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authorbibnamehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authornamehash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authorfullhash}{b32ab73e85caa26365ad2176347b9515}
+      \strng{authorfullhashraw}{b32ab73e85caa26365ad2176347b9515}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Gravity}
+      \field{year}{2004}
+    \endentry
+    \entry{Verlinde2011}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bb173e9b623b7737a79f22558b0becc4}{%
+           family={Verlinde},
+           familyi={V\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb173e9b623b7737a79f22558b0becc4}
+      \strng{fullhash}{bb173e9b623b7737a79f22558b0becc4}
+      \strng{fullhashraw}{bb173e9b623b7737a79f22558b0becc4}
+      \strng{bibnamehash}{bb173e9b623b7737a79f22558b0becc4}
+      \strng{authorbibnamehash}{bb173e9b623b7737a79f22558b0becc4}
+      \strng{authornamehash}{bb173e9b623b7737a79f22558b0becc4}
+      \strng{authorfullhash}{bb173e9b623b7737a79f22558b0becc4}
+      \strng{authorfullhashraw}{bb173e9b623b7737a79f22558b0becc4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{number}{4}
+      \field{title}{On the Origin of Gravity and the Laws of Newton}
+      \field{volume}{2011}
+      \field{year}{2011}
+      \field{pages}{29}
+      \range{pages}{1}
+    \endentry
+    \entry{Bombelli1987}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=0bd36bdeb15015b1511588612995b20d}{%
+           family={Bombelli},
+           familyi={B\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b0c0a53a1fc0b244087e70fafdb6da47}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Joohan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b8264d1ec124bc1b7e8110d3c084941}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=28d1a6283ee0a64b9bd417528223ff4c}{%
+           family={Sorkin},
+           familyi={S\bibinitperiod},
+           given={Rafael\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{19b3f3525a4c80f584978da3b2ffa380}
+      \strng{fullhash}{19b3f3525a4c80f584978da3b2ffa380}
+      \strng{fullhashraw}{19b3f3525a4c80f584978da3b2ffa380}
+      \strng{bibnamehash}{19b3f3525a4c80f584978da3b2ffa380}
+      \strng{authorbibnamehash}{19b3f3525a4c80f584978da3b2ffa380}
+      \strng{authornamehash}{19b3f3525a4c80f584978da3b2ffa380}
+      \strng{authorfullhash}{19b3f3525a4c80f584978da3b2ffa380}
+      \strng{authorfullhashraw}{19b3f3525a4c80f584978da3b2ffa380}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{5}
+      \field{title}{Space-Time as a Causal Set}
+      \field{volume}{59}
+      \field{year}{1987}
+      \field{pages}{521\bibrangedash 524}
+      \range{pages}{4}
+    \endentry
+    \entry{Tenenbaum2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=446021522a3e2ddbddd6c58286054ae0}{%
+           family={Tenenbaum},
+           familyi={T\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8914ed3ba6a5221539f9df16b4db08ac}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Vin},
+           giveni={V\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=98c8721f0693b159457b9b2d6fa05362}{%
+           family={Langford},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fcfe906b580373d804a79bd06e70790}
+      \strng{fullhash}{1fcfe906b580373d804a79bd06e70790}
+      \strng{fullhashraw}{1fcfe906b580373d804a79bd06e70790}
+      \strng{bibnamehash}{1fcfe906b580373d804a79bd06e70790}
+      \strng{authorbibnamehash}{1fcfe906b580373d804a79bd06e70790}
+      \strng{authornamehash}{1fcfe906b580373d804a79bd06e70790}
+      \strng{authorfullhash}{1fcfe906b580373d804a79bd06e70790}
+      \strng{authorfullhashraw}{1fcfe906b580373d804a79bd06e70790}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5500}
+      \field{title}{A global geometric framework for nonlinear dimensionality reduction}
+      \field{volume}{290}
+      \field{year}{2000}
+      \field{pages}{2319\bibrangedash 2323}
+      \range{pages}{5}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
