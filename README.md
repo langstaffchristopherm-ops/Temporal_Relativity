@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17119050.svg)](https://doi.org/10.5281/zenodo.17119050)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17137145.svg)](https://doi.org/10.5281/zenodo.17137145)
 
 
 # Empirics Pack

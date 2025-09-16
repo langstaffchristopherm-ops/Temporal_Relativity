@@ -1,6 +1,20 @@
 % ==============================
-% format_macros.tex — PDF figs; single DOI macro; link colors; bib+glossaries ON
+% format_macros.tex — PDF figs; single DOI macro; link colors; glossaries+bib
 % ==============================
+
+% ---- Release metadata (single source of truth) ----
+% release.tex (repo root) should define: \RepoDOI, \RepoCommit, \PaperVersion, \PaperLicense
+\IfFileExists{release.tex}{\input{release.tex}}{}
+
+% Fallbacks if release.tex is missing
+\providecommand{\RepoDOI}{10.5281/zenodo.XXXXXXX}
+\providecommand{\RepoCommit}{0000000}
+\providecommand{\PaperVersion}{v0.0.0}
+\providecommand{\PaperLicense}{(license not set)}
+
+% Single, canonical clickable DOI (TEXT = raw DOI, LINK = doi.org/DOI)
+\newcommand{\RepoDOIlink}{\href{https://doi.org/\RepoDOI}{\nolinkurl{https://doi.org/\RepoDOI}}}
+% -----------------------------------------------
 
 % --- Core packages (pdfLaTeX-safe) ---
 \usepackage[utf8]{inputenc}
@@ -29,7 +43,7 @@
 \usepackage{placeins} % in preamble
 
 % Force exact-here placement when needed
-\usepackage{float}            % <-- added so [H] works reliably
+\usepackage{float}            % so [H] works reliably
 
 % --- Column helpers ---
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
@@ -56,11 +70,8 @@
 \providecommand{\AuthorName}{Christopher Michael Langstaff}
 \providecommand{\AuthorNameShort}{C.~Langstaff}
 \providecommand{\AuthorORCID}{0009-0000-3960-773X}
-\providecommand{\PaperVersion}{v1.2}
 \providecommand{\PaperLicense}{CC BY 4.0}
-\providecommand{\RepoDOI}{10.5281/zenodo.17119050}
 \providecommand{\RepoURL}{https://github.com/langstaffchristopherm-ops/Temporal_Relativity}
-\providecommand{\RepoCommit}{v0.1.4}
 
 % --- Eτ Law naming ---
 \providecommand{\EtLawText}{E$\tau$~Law}
@@ -80,8 +91,6 @@
 \setlength{\intextsep}{10pt plus 2pt minus 2pt}
 \emergencystretch=2em
 \Urlmuskip=0mu plus 1mu
-
-% --- Figures: use explicit .pdf extension (your environment requires it) ---
 
 % --- PDF metadata ---
 \hypersetup{
@@ -108,9 +117,7 @@
 \urlstyle{tt}
 \DeclareRobustCommand{\code}[1]{\nolinkurl{#1}}
 
-% --- Unified DOI helpers (single canonical link) ---
-\newcommand{\Doilink}[1]{\href{https://doi.org/#1}{\nolinkurl{https://doi.org/#1}}}
-\newcommand{\RepoDOIlink}{\Doilink{\RepoDOI}}
+% (Removed recursive/duplicate DOI helpers that caused nested \href loops)
 
 % --- Safe figure include (placeholder if missing) ---
 \newcommand{\safeincludegraphics}[2][]{%

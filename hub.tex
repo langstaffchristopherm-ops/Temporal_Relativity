@@ -22,8 +22,8 @@
 \setlength{\emergencystretch}{12em}\sloppy\raggedright
 \hangindent=2.2em \hangafter=1
 \textbf{How to cite.}\enspace
-\AuthorNameShort. \emph{\PaperTitleMain:} \texorpdfstring{\PaperSubtitleMath}{Delta S = k Delta tau}. \PaperVersion.
-Zenodo — DOI: \RepoDOIlink \textbullet\ \textit{License:} \PaperLicense \textbullet\ \textit{Commit:} \RepoCommit.%
+\AuthorNameShort. \emph{\PaperTitleMain:} \texorpdfstring{\PaperSubtitleMath}{Delta S = k Delta tau}. \PaperVersion
+Zenodo — DOI: \RepoDOIlink \textbullet\ \textit{License:} \PaperLicense \textbullet\ \textit{Commit:} \RepoCommit.
 \par\endgroup
 
 \begin{abstract}
@@ -98,7 +98,7 @@ Regress the observed fractional shift $\Delta\nu/\nu$ against $g\,\Delta h/c^2$ 
   \centering
   \safeincludegraphics[width=\linewidth]{\fig{fig_weakfield_redshift.png}}
   \caption{Weak-field slope with preregistered band around 1; residual diagnostics in the supplement.}
-  \figprov{\src{weakfield_run.py}}{\data{weakfield_redshift.csv}}{\RepoCommit}{\RepoDOI}
+  \figprov{\src{weakfield_run.py}}{\data{weakfield_redshift.csv}}{\RepoCommit}{\RepoDOIlink}
 \end{figure}
 
 \noindent\emph{Calibration invariance.} Because the analysis uses the \emph{fractional} rate change $\Delta\nu/\nu$, the unknown modality calibration $\kappa_m$ cancels; the slope probes $\mathrm{d}\tau$ directly.
@@ -133,17 +133,16 @@ Thermal time proposes a state-dependent flow of time~\cite{Rovelli1993,Rovelli20
 \end{itemize}
 \end{tcolorbox}
 
-% -------- Data & Code availability (drop in near the end) --------
+% -------- Data & Code availability (kept; uses single-source macros) --------
 \section*{Data and code availability}
 All materials to reproduce the analysis and figure are openly available:
-GitHub (\href{\RepoURL}) and Zenodo v0.1.2
-(\Doilink{10.5281/zenodo.17127328}). Key files:
+GitHub (\url{\RepoURL}) and Zenodo \PaperVersion\ (\RepoDOIlink). Key files:
 \code{\src{weakfield_run.py}} (OLS slope + figure regeneration),
 \code{\data{weakfield_redshift.csv}} (input data), and the output figure
 \code{\fig{fig_weakfield_redshift.png}} regenerated from the script.
 Text is CC BY~4.0; code/data as per the repository LICENSE.
 
-% -------- AI use disclosure (drop in right after the availability section) --------
+% -------- AI use disclosure --------
 \section*{AI use disclosure}
 ChatGPT was used as a tool—under the author's direction—for wording/\LaTeX{}
 polish and to draft a short reproducibility script
@@ -156,6 +155,18 @@ data were provided to the tool. AI is not an author.
   \printglossary[type=\acronymtype,title={Acronyms}]
   \printglossary[title={Glossary}]
 \fi
+
+\section*{Data accessibility}
+All code, input data, and figure-generation scripts are archived at DOI \RepoDOIlink.
+
+\section*{Authors’ contributions}
+The author conceived the study, carried out the analysis, and wrote the manuscript.
+
+\section*{Competing interests}
+The author declares no competing interests.
+
+\section*{Funding}
+No external funding was received.
 
 \ifshowbib
   \nocite{*} % include all entries if no in-text \cite present

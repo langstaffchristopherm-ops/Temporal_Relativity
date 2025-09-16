@@ -1,13 +1,15 @@
-cff-version: 1.2.1
+cff-version: 0.1.5
 message: "If you use this software, please cite it."
 title: "Temporal Relativity — Entropy Clock"
 authors:
   - family-names: "Langstaff"
     given-names: "Christopher M."
 license: "MIT"
-version: "0.1.4"
+version: v0.1.6
 date-released: "2025-09-15"
 
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.17119050
+    value: 10.5281/zenodo.17127328
+commit: UNKNOWN
+doi: 10.5281/zenodo.17137145
