@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2025 Christopher M. Langstaff
+
 #!/usr/bin/env python3
 import numpy as np, pandas as pd, matplotlib.pyplot as plt, json
 
