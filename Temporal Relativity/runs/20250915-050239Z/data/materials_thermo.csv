@@ -1,5 +1,0 @@
-material,k_W_mK,alpha_mm2_s,cp_J_kgK,rho_kg_m3,k_pred_W_mK,rel_error,source
-Copper,397.48,116.0,385.0,8940.0,399.2604,0.004479219080205258,Thermtest + Wikipedia α
-Aluminum,225.94,97.0,897.0,2700.0,234.9243,0.039764096662830796,Thermtest + Wikipedia α
-Stainless304,14.644,3.68,502.0,7920.0,14.6310912,-0.0008815077847582588,Thermtest
-Ice,2.092,0.54,2050.0,917.0,1.015119,-0.5147614722753345,Thermtest
