@@ -133,6 +133,24 @@ Thermal time proposes a state-dependent flow of time~\cite{Rovelli1993,Rovelli20
 \end{itemize}
 \end{tcolorbox}
 
+% -------- Data & Code availability (drop in near the end) --------
+\section*{Data and code availability}
+All materials to reproduce the analysis and figure are openly available:
+GitHub (\href{\RepoURL}) and Zenodo v0.1.2
+(\Doilink{10.5281/zenodo.17127328}). Key files:
+\code{\src{weakfield_run.py}} (OLS slope + figure regeneration),
+\code{\data{weakfield_redshift.csv}} (input data), and the output figure
+\code{\fig{fig_weakfield_redshift.png}} regenerated from the script.
+Text is CC BY~4.0; code/data as per the repository LICENSE.
+
+% -------- AI use disclosure (drop in right after the availability section) --------
+\section*{AI use disclosure}
+ChatGPT was used as a tool—under the author's direction—for wording/\LaTeX{}
+polish and to draft a short reproducibility script
+(\code{\src{weakfield_run.py}}). The author reviewed, edited, and executed all
+code; all concepts, analyses, and conclusions are the author's. No confidential
+data were provided to the tool. AI is not an author.
+
 % ---------- Glossary + Bibliography ----------
 \ifwithglossary
   \printglossary[type=\acronymtype,title={Acronyms}]
