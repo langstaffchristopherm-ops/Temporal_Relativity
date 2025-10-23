@@ -1,0 +1,55 @@
+\section*{Notation}
+
+\noindent\textbf{Conventions.}  
+Time and entropy advance in discrete, \emph{dimensionless ticks}.   
+A single primitive cell unit is created per tick, so that
+\[
+  \Delta S = \Delta \tau.
+\]
+Physical mapping is used only when required:
+\[
+  S_{\mathrm{phys}} = k_B\,S, \qquad \tau_s = t_P\,\tau.
+\]
+Fundamental constants used throughout are the speed of light \(c\), reduced Planck constant \(\hbar\), and Boltzmann constant \(k_B\).
+
+\smallskip
+\noindent\textit{Native--SI correspondence (Def.~\ref{def:stitch}).}  
+One hop per tick implies \(\mathrm{d}a/\mathrm{d}\tau = 1\).  
+Choosing a length per hop \(\ell_0\) and a time per tick \(t_0\) gives
+\[
+  c = \frac{\ell_0}{t_0}.
+\]
+
+\bigskip
+\noindent\textbf{Core quantities.}
+\begin{description}[leftmargin=2.4em,labelsep=0.8em]
+  \item[\(k\)] Tick index (integer). The scale factor \(a(k)\) is defined with respect to ticks; baseline behaviour \(a(k) \propto k^{1/3}\).
+  \item[\(\Delta S,\, \Delta\tau\)] Primitive-cell and proper-time tick \emph{counts} (dimensionless), with \(\Delta S = \Delta\tau\).
+\end{description}
+
+\noindent\textbf{Graph and geometric parameters (for interior-recovery statements).}
+\begin{description}[leftmargin=2.4em,labelsep=0.8em]
+  \item[\(d_G(x,y)\)] Graph (hop) distance between vertices \(x\) and \(y\).
+  \item[\(\ell_N\)] Typical interior hop length for a sample of size \(N\).
+  \item[\(\varepsilon_N,\,\delta_N\)] Mesh non-uniformity and directional-bias parameters (\(\to 0\) as \(N \to \infty\)).
+  \item[\(\eta_N\)] Combined small parameter: \(\eta_N := C_1\varepsilon_N + C_2\delta_N.\)
+  \item[\(\mathrm{distortion}(N)\)] Bilipschitz distortion of the graph metric relative to the ambient metric:
+  \[
+    \mathrm{distortion}(N)
+      = \sup_{x,y} 
+        \max\!\left\{
+          \frac{d_G(x,y)}{\|x-y\|},\,
+          \frac{\|x-y\|}{d_G(x,y)}
+        \right\} - 1.
+  \]
+\end{description}
+
+\noindent\textbf{Temporal Relativity–specific symbols.}
+\begin{description}[leftmargin=2.4em,labelsep=0.8em]
+  \item[\(u^\mu,\,a^\mu\)] Four-velocity and four-acceleration along a worldline (ticks parameterize proper time).
+  \item[\(\mathcal{C}\)] Causal cone induced by the one-hop-per-tick exchange rule.
+  \item[\(\beta\)] Slope in the weak-field clock/redshift relation 
+        \(\Delta\nu/\nu = \beta\,\Delta\Phi / c^2.\)
+  \item[\(\hat{\beta}\)] Empirical estimator:
+        \(\hat{\beta} = (\Delta\nu/\nu)\big/(\Delta\Phi / c^2).\)
+\end{description}

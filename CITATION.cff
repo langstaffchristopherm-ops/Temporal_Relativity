@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Temporal Relativity — The Entropy Clock (ΔS = Δτ)"
+abstract: >
+  Core postulate and operational tests for the Planck-Cell S/t framework:
+  ΔS = Δτ, one-hop-per-tick causality, interior metric recovery with
+  finite-sample bounds, and weak-field clock/redshift checks.
+  Repository contains the release PDF and LaTeX source.
+
+authors:
+  - family-names: "Langstaff"
+    given-names: "Christopher Michael"
+
+version: "v2.0.0"
+date-released: "2025-10-22"
+repository-code: "https://github.com/langstaffchristopherm-ops/Temporal_Relativity"
+url: "https://github.com/langstaffchristopherm-ops/Temporal_Relativity"
+license: "CC-BY-4.0"
+
+# VERSION DOI (replace after Zenodo builds the release)
+doi: "10.5281/zenodo.17420538"
+
+# CONCEPT DOI (stable root for all versions)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17119049"
+
+preferred-citation:
+  type: article
+  title: "Temporal Relativity — The Entropy Clock (ΔS = Δτ)"
+  authors:
+    - family-names: "Langstaff"
+      given-names: "C."
+  year: 2025
+  doi: "10.5281/zenodo.17420538"
+  url: "https://doi.org/10.5281/zenodo.17420538"
+  journal: "Zenodo"
