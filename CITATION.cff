@@ -1,0 +1,41 @@
+##`CITATION.cff`
+```yaml
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Temporal Relativity (ΔS = Δτ)"
+abstract: >
+  Foundational paper of the Planck-Cell S/t framework. Establishes the
+  temporal–entropic postulate ΔS = Δτ, one-hop-per-tick causality, and the
+  emergence of metric relations from entropy-time counting. Demonstrates
+  interior metric recovery, local equivalence between inertial and
+  gravitational response, and correspondence with redshift and weak-field
+  tests. Repository contains the release PDF and LaTeX source.
+
+authors:
+  - family-names: "Langstaff"
+    given-names: "Christopher Michael"
+
+version: "v2.0.2"
+date-released: "2025-10-22"
+repository-code: "https://github.com/langstaffchristopherm-ops/Temporal_Relativity"
+url: "https://github.com/langstaffchristopherm-ops/Temporal_Relativity"
+license: "CC-BY-4.0"
+
+# VERSION DOI (this release)
+doi: "10.5281/zenodo.17421413"
+
+# CONCEPT DOI (stable root)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17119049"
+
+preferred-citation:
+  type: article
+  title: "Temporal Relativity (ΔS = Δτ)"
+  authors:
+    - family-names: "Langstaff"
+      given-names: "C."
+  year: 2025
+  doi: "10.5281/zenodo.17421413"
+  url: "https://doi.org/10.5281/zenodo.17421413"
+  journal: "Zenodo"
